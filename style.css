@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b9a56e;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    border-radius: 25px;
+
+
+}
+
+#dono{
+    text-align: right;
+    
+}
+
+#id{
+    color: black;
+    font:bold;
+}
+
+h1 {
+    text-shadow: 5px 5px 10px grey;
+    font-size: 45px;
+    font-family: Bradley Hand, cursive;
+}
+
+body {
+    background-image: url('https://s1.1zoom.me/b4551/250/Texture_Wall_Brick_522712_2560x1440.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.lista {
+    background-color:grey;
+    box-shadow: 5px 5px 10px rgb(#4a4a4a);
+    border-radius: 25px;
+    width: auto;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 15px;
+    margin-bottom: 15px;
+    color: #ccc;
+    border: #ccc;
+    text-align: left;
+
+}
+#feras{
+    height: 30px;
+    width: 25px;
+}
+
+.topico{
+    height: 30px;
+    width: 25px;
+    margin: 5px;
+    padding: 0;
+    margin-bottom:0px ;
+}
+
+h5{
+    color: black;
+}
+
+li {
+    display: inline-block;
+    padding-right: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom:10px ;
+    
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    background-color: #b9a56e;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 25px;
+    width: auto;
+    padding: 0px;
+    margin: 15px;
+    margin-bottom: 10px;
+    color: #ccc;
+    border: #ccc;
+
+
+}
+
+.one {
+
+    flex: 1;
+    margin: 15px;
+    height: 450;
+    width: auto;
+    
+}
+
+.two {
+    flex: 2;
+    margin: 15px;
+    height: 450;
+    width: auto;
+    
+}
+
+.tree {
+    flex: 3;
+    margin: 15px;
+    height: 450;
+    width: auto;
+}
+
+.four {
+    flex: 4;
+    margin: 15px;
+    height: 450;
+    width: auto;
+}
+
+.foto{
+    height: 250px;
+    width: 250px;
+}
+
+.ContainerFormulario {
+    background-color: #b9a56e;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ccc;
+    border-radius: 25px;
+    margin: 30px auto;
+    width: 400px;
+    height: 400px;
+
+
+}
+
+#nome,#celular,#email{
+    margin: 5px;
+    
+}
+
+.form-container input[type="text"],
+.form-container input[type="tel"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.custom-title {
+    font-family: 'Segoe Script', cursive;
+    font-size: 72px;
+    /* Aumenta o tamanho do título */
+}
+
+.original-symbol {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.owner-name {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 24px;
+    font-family: 'Segoe Script', cursive;
+    color: #fff;
+}
+
+.servico {
+    resize: 800px
+}
+
+textarea {
+    height: 150px;
+    width: 400px;
+}
+
+
+
+
+h2 {
+    padding: 10px;
+}
+
+h3{
+    margin:15px;
+    font-family:comic sans;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration:solid;
+}
+
+.bio{
+    background-color:grey;
+    box-shadow: 5px 5px 10px rgb(#4a4a4a);
+    border-radius: 25px;
+    width: auto;
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 15px;
+    margin-bottom: 15px;
+    color: #ccc;
+    border: #ccc;
+    display: flex;
+
+}
+
+.bio2{
+    flex:1;
+    padding: 40px;
+}
+.marcio{
+    flex:2;
+    text-align: right;
+    height: 160px;
+    width: 210px;
+    border-radius: 15px;
+}
+
+#biotitle{
+    text-align: center;
+    text-decoration: solid;
+    font:bold;
+}
+
+p{
+    text-align: center;
+    text-decoration: solid;
+    font:bold;
+}
+
